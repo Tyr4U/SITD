@@ -3457,3 +3457,555 @@ Sampler Limit: 32
 [2025.10.24-22.13.50:765][786]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2241.187500
 [2025.10.24-22.13.50:861][794]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.24-22.13.50:861][794]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2241.253906, Update Interval: 349.055450
+[2025.10.24-22.16.02:869][392]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.24-22.16.03:419][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.24-22.16.03:421][392]LogPlayLevel: Creating play world package: /Game/SITD/Levels/UEDPIE_0_Level01
+[2025.10.24-22.16.03:425][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003948s)
+[2025.10.24-22.16.03:425][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SITD/Levels/Level01.Level01 to /Game/SITD/Levels/UEDPIE_0_Level01.Level01 (0.003994s)
+[2025.10.24-22.16.03:445][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.24-22.16.03:448][392]LogChaosDD: Creating Chaos Debug Draw Scene for world Level01
+[2025.10.24-22.16.03:450][392]LogPlayLevel: PIE: World Init took: (0.001836s)
+[2025.10.24-22.16.03:451][392]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.10.24-22.16.03:451][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.24-22.16.03:451][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.24-22.16.03:451][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.24-22.16.03:451][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.24-22.16.03:451][392]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.24-22.16.03:451][392]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.24-22.16.03:451][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.24-22.16.03:451][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.24-22.16.03:451][392]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.24-22.16.03:451][392]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.24-22.16.03:451][392]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.24-22.16.03:454][392]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.24-22.16.03:476][392]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAGEAR (NVIDIA High Definition Audio)
+[2025.10.24-22.16.03:477][392]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.24-22.16.03:477][392]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.24-22.16.03:477][392]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.24-22.16.03:477][392]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.10.24-22.16.03:477][392]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.10.24-22.16.03:480][392]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.10.24-22.16.03:480][392]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.10.24-22.16.03:480][392]LogInit: FAudioDevice initialized with ID 3.
+[2025.10.24-22.16.03:480][392]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level01'.
+[2025.10.24-22.16.03:480][392]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.24-22.16.03:485][392]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.10.24-22.16.03:486][392]LogWorld: Bringing World /Game/SITD/Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2025.10.24-18.16.03
+[2025.10.24-22.16.03:486][392]LogWorld: Bringing up level for play took: 0.000835
+[2025.10.24-22.16.03:489][392]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.10.24-22.16.03:500][392]PIE: Server logged in
+[2025.10.24-22.16.03:501][392]PIE: Play in editor total start time 0.093 seconds.
+[2025.10.24-22.16.05:291][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-22.16.05:291][541]LogWorld: BeginTearingDown for /Game/SITD/Levels/UEDPIE_0_Level01
+[2025.10.24-22.16.05:292][541]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.16.05:292][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.16.05:295][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.24-22.16.05:303][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.16.05:319][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-22.16.05:320][541]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.10.24-22.16.05:320][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.10.24-22.16.05:322][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.10.24-22.16.05:329][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.10.24-22.16.05:371][542]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.10.24-22.16.18:143][822]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2025.10.24-22.16.18:143][822]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2025.10.24-22.16.18:144][822]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/SITD/Levels/Level01.Level01:PersistentLevel.PlayerStart_0
+[2025.10.24-22.16.18:144][822]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.24-22.16.18:144][822]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/SITD/Levels/Level01.Level01:PersistentLevel.PlayerStart_0
+[2025.10.24-22.16.18:144][822]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.24-22.16.19:176][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.10.24-22.16.19:178][914]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.10.24-22.16.19:186][914]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2025.10.24-22.16.19:186][914]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2025.10.24-22.16.19:189][914]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/SITD/Levels/Level01.Level01:PersistentLevel.PlayerStart_1
+[2025.10.24-22.16.19:189][914]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.24-22.16.19:343][914]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/SITD/Levels/Level01.Level01:PersistentLevel.PlayerStart_1
+[2025.10.24-22.16.19:343][914]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.24-22.16.26:116][561]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.10.24-22.16.41:236][877]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.24-22.16.41:248][877]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.24-22.16.41:261][878]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.24-22.16.45:596][227]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2025.10.24-22.16.45:836][227]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.24-22.16.51:161][671]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.24-22.16.51:172][671]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.24-22.16.51:231][673]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.24-22.16.54:018][903]LogContentBrowser: Attempting asset rename: NewFolder -> GameMode
+[2025.10.24-22.16.54:240][903]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.24-22.17.05:375][656]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.10.24-22.17.05:385][656]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.10.24-22.17.05:397][656]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.10.24-22.17.05:426][658]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.10.24-22.17.10:403][ 41]LogContentBrowser: Attempting asset rename: NewBlueprint -> GM_SITD
+[2025.10.24-22.17.10:680][ 41]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.10.24-22.17.20:395][798]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.24-22.17.20:406][798]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.24-22.17.20:418][799]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.24-22.17.23:841][ 82]LogContentBrowser: Attempting asset rename: NewFolder -> PC
+[2025.10.24-22.17.24:028][ 82]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.24-22.17.34:172][477]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.10.24-22.18.04:686][698]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.10.24-22.18.04:745][699]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.10.24-22.18.04:799][701]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.10.24-22.18.10:985][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.10.24-22.18.11:107][249]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-22.18.11:132][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SITD/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.24-22.18.11:193][249]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SITD/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.10.24-22.18.11:193][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/SITD/Blueprints/BP_FirstPersonCharacter]
+[2025.10.24-22.18.11:193][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SITD/Blueprints/BP_FirstPersonCharacter" FILE="../../../../../../GitHub/Spooked/Content/SITD/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2025.10.24-22.18.11:370][249]LogSavePackage: Moving output files for package: /Game/SITD/Blueprints/BP_FirstPersonCharacter
+[2025.10.24-22.18.11:370][249]LogSavePackage: Moving '../../../../../../GitHub/Spooked/Saved/BP_FirstPersonCharacterE7B9EA9F490862B140BB299B61BD4C7D.tmp' to '../../../../../../GitHub/Spooked/Content/SITD/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.24-22.18.11:584][249]LogFileHelpers: InternalPromptForCheckoutAndSave took 477.500 ms (total: 6.08 sec)
+[2025.10.24-22.18.11:693][249]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.24-22.18.11:693][249]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-22.18.11:693][249]LogContentValidation: Enabled validators:
+[2025.10.24-22.18.11:693][249]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-22.18.11:693][249]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-22.18.11:693][249]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-22.18.11:693][249]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-22.18.11:693][249]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-22.18.11:693][249]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-22.18.11:693][249]AssetCheck: /Game/SITD/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.10.24-22.18.34:220][348]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C' ref from Metadata '/Game/SITD/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.34:220][348]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C' ref from Metadata '/Game/SITD/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.34:220][348]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:ReceiveControllerChanged' ref from Metadata '/Game/SITD/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.34:220][348]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/SITD/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.34:220][348]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ReceiveControllerChanged' ref from Metadata '/Game/SITD/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.34:223][348]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-22.18.34:224][348]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.10.24-22.18.34:224][348]OBJ SavePackage: Finished generating thumbnails for package [/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter]
+[2025.10.24-22.18.34:224][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter" FILE="../../../../../../GitHub/Spooked/Content/SITD/Blueprints/PC/BP_FirstPersonCharacter.uasset" SILENT=true
+[2025.10.24-22.18.34:328][348]LogSavePackage: Moving output files for package: /Game/SITD/Blueprints/PC/BP_FirstPersonCharacter
+[2025.10.24-22.18.34:328][348]LogSavePackage: Moving '../../../../../../GitHub/Spooked/Saved/BP_FirstPersonCharacter05B0238249965A8C371148AF966561DF.tmp' to '../../../../../../GitHub/Spooked/Content/SITD/Blueprints/PC/BP_FirstPersonCharacter.uasset'
+[2025.10.24-22.18.34:598][348]LogFileHelpers: InternalPromptForCheckoutAndSave took 375.421 ms (total: 6.45 sec)
+[2025.10.24-22.18.34:866][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.10.24-22.18.34:887][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.10.24-22.18.34:907][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.10.24-22.18.35:090][348]SourceControl: rm 'Content/SITD/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.10.24-22.18.35:115][348]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.24-22.18.35:115][348]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-22.18.35:115][348]LogContentValidation: Enabled validators:
+[2025.10.24-22.18.35:115][348]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-22.18.35:115][348]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-22.18.35:115][348]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-22.18.35:115][348]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-22.18.35:115][348]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-22.18.35:115][348]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-22.18.35:115][348]AssetCheck: /Game/SITD/Blueprints/PC/BP_FirstPersonCharacter Validating asset
+[2025.10.24-22.18.46:935][308]LogContentBrowser: Attempting asset rename: BP_FirstPersonCharacter -> BP_PlayerCharacter
+[2025.10.24-22.18.48:277][308]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_PlayerCharacter.BP_PlayerCharacter_C' ref from Metadata '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.48:277][308]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_PlayerCharacter.BP_PlayerCharacter_C:ReceiveControllerChanged' ref from Metadata '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.48:277][308]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_PlayerCharacter.SKEL_BP_PlayerCharacter_C' ref from Metadata '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.48:277][308]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_PlayerCharacter.SKEL_BP_PlayerCharacter_C:ReceiveControllerChanged' ref from Metadata '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.48:277][308]LogMetaData: Removing '/Game/SITD/Blueprints/PC/BP_PlayerCharacter.SKEL_BP_PlayerCharacter_C:UserConstructionScript' ref from Metadata '/Game/SITD/Blueprints/PC/BP_FirstPersonCharacter.PackageMetaData'
+[2025.10.24-22.18.48:281][308]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-22.18.48:281][308]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SITD/Blueprints/PC/BP_PlayerCharacter] ([2] browsable assets)...
+[2025.10.24-22.18.48:281][308]OBJ SavePackage: Finished generating thumbnails for package [/Game/SITD/Blueprints/PC/BP_PlayerCharacter]
+[2025.10.24-22.18.48:281][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SITD/Blueprints/PC/BP_PlayerCharacter" FILE="../../../../../../GitHub/Spooked/Content/SITD/Blueprints/PC/BP_PlayerCharacter.uasset" SILENT=true
+[2025.10.24-22.18.48:387][308]LogSavePackage: Moving output files for package: /Game/SITD/Blueprints/PC/BP_PlayerCharacter
+[2025.10.24-22.18.48:387][308]LogSavePackage: Moving '../../../../../../GitHub/Spooked/Saved/BP_PlayerCharacter6D5DC69B49D2A31794F1AB947E903674.tmp' to '../../../../../../GitHub/Spooked/Content/SITD/Blueprints/PC/BP_PlayerCharacter.uasset'
+[2025.10.24-22.18.48:559][308]LogFileHelpers: InternalPromptForCheckoutAndSave took 278.303 ms (total: 6.73 sec)
+[2025.10.24-22.18.48:793][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.10.24-22.18.48:815][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.10.24-22.18.48:834][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.10.24-22.18.49:025][308]SourceControl: rm 'Content/SITD/Blueprints/PC/BP_FirstPersonCharacter.uasset'
+[2025.10.24-22.18.49:061][308]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.24-22.18.49:061][308]LogContentValidation: Enabled validators:
+[2025.10.24-22.18.49:061][308]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-22.18.49:061][308]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-22.18.49:061][308]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-22.18.49:061][308]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-22.18.49:061][308]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-22.18.49:061][308]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-22.18.49:061][308]AssetCheck: /Game/SITD/Blueprints/PC/BP_PlayerCharacter Validating asset
+[2025.10.24-22.18.49:069][308]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.10.24-22.20.04:266][384]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.24-22.20.04:305][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.24-22.20.04:309][384]LogPlayLevel: Creating play world package: /Game/SITD/Levels/UEDPIE_0_Level01
+[2025.10.24-22.20.04:314][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004480s)
+[2025.10.24-22.20.04:314][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SITD/Levels/Level01.Level01 to /Game/SITD/Levels/UEDPIE_0_Level01.Level01 (0.004523s)
+[2025.10.24-22.20.04:336][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.24-22.20.04:344][384]LogChaosDD: Creating Chaos Debug Draw Scene for world Level01
+[2025.10.24-22.20.04:346][384]LogPlayLevel: PIE: World Init took: (0.001909s)
+[2025.10.24-22.20.04:347][384]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.10.24-22.20.04:347][384]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.24-22.20.04:347][384]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.24-22.20.04:347][384]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.24-22.20.04:347][384]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.24-22.20.04:347][384]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.24-22.20.04:347][384]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.24-22.20.04:347][384]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.24-22.20.04:347][384]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.24-22.20.04:348][384]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.24-22.20.04:348][384]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.24-22.20.04:348][384]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.24-22.20.04:350][384]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.24-22.20.04:372][384]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAGEAR (NVIDIA High Definition Audio)
+[2025.10.24-22.20.04:373][384]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.24-22.20.04:373][384]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.24-22.20.04:373][384]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.24-22.20.04:374][384]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.10.24-22.20.04:374][384]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.10.24-22.20.04:376][384]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.10.24-22.20.04:376][384]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.10.24-22.20.04:376][384]LogInit: FAudioDevice initialized with ID 4.
+[2025.10.24-22.20.04:376][384]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level01'.
+[2025.10.24-22.20.04:376][384]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.24-22.20.04:379][384]LogLoad: Game class is 'GM_SITD_C'
+[2025.10.24-22.20.04:380][384]LogWorld: Bringing World /Game/SITD/Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2025.10.24-18.20.04
+[2025.10.24-22.20.04:381][384]LogWorld: Bringing up level for play took: 0.000919
+[2025.10.24-22.20.04:383][384]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.10.24-22.20.04:485][384]PIE: Server logged in
+[2025.10.24-22.20.04:487][384]PIE: Play in editor total start time 0.193 seconds.
+[2025.10.24-22.20.11:111][923]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2621.528809
+[2025.10.24-22.20.11:168][928]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.24-22.20.11:168][928]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2621.574463, Update Interval: 357.515198
+[2025.10.24-22.20.14:549][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-22.20.14:549][222]LogWorld: BeginTearingDown for /Game/SITD/Levels/UEDPIE_0_Level01
+[2025.10.24-22.20.14:549][222]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.20.14:550][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.20.14:554][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.24-22.20.14:563][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.20.14:582][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-22.20.14:582][222]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.24-22.20.14:582][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.10.24-22.20.14:584][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.10.24-22.20.14:591][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.10.24-22.20.14:683][223]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.10.24-22.20.15:999][330]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.24-22.20.16:036][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.24-22.20.16:036][330]LogPlayLevel: Creating play world package: /Game/SITD/Levels/UEDPIE_0_Level01
+[2025.10.24-22.20.16:040][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003903s)
+[2025.10.24-22.20.16:040][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SITD/Levels/Level01.Level01 to /Game/SITD/Levels/UEDPIE_0_Level01.Level01 (0.003937s)
+[2025.10.24-22.20.16:061][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.24-22.20.16:062][330]LogChaosDD: Creating Chaos Debug Draw Scene for world Level01
+[2025.10.24-22.20.16:064][330]LogPlayLevel: PIE: World Init took: (0.001793s)
+[2025.10.24-22.20.16:065][330]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.10.24-22.20.16:065][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.24-22.20.16:065][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.24-22.20.16:065][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.24-22.20.16:065][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.24-22.20.16:065][330]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.24-22.20.16:065][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.24-22.20.16:065][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.24-22.20.16:065][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.24-22.20.16:065][330]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.24-22.20.16:065][330]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.24-22.20.16:065][330]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.24-22.20.16:068][330]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.24-22.20.16:091][330]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAGEAR (NVIDIA High Definition Audio)
+[2025.10.24-22.20.16:092][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.24-22.20.16:092][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.24-22.20.16:092][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.24-22.20.16:092][330]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.10.24-22.20.16:092][330]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.10.24-22.20.16:095][330]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.10.24-22.20.16:095][330]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.10.24-22.20.16:095][330]LogInit: FAudioDevice initialized with ID 5.
+[2025.10.24-22.20.16:095][330]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level01'.
+[2025.10.24-22.20.16:095][330]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.24-22.20.16:098][330]LogLoad: Game class is 'GM_SITD_C'
+[2025.10.24-22.20.16:100][330]LogWorld: Bringing World /Game/SITD/Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2025.10.24-18.20.16
+[2025.10.24-22.20.16:100][330]LogWorld: Bringing up level for play took: 0.001136
+[2025.10.24-22.20.16:103][330]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.10.24-22.20.16:114][330]PIE: Server logged in
+[2025.10.24-22.20.16:115][330]PIE: Play in editor total start time 0.091 seconds.
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: ================================================
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Total job queries 906, among them cache hits 258 (28.48%), DDC hits 330 (36.42%), Duplicates 23 (2.54%)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Tracking 625 distinct input hashes that result in 533 distinct outputs (85.28%)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: RAM used: 378.50 KiB of 4.00 GiB budget. Usage: 0.01%
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Shaders Compiled: 295
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Jobs assigned 295, completed 295 (100%)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Average time worker was idle: 67.82 s
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Time job spent in pending queue: average 2.93 s, longest 29.30 s
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Job execution time: average 7.11 s, max 26.18 s
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Job life time (pending + execution): average 10.04 s, max 31.56
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Shader code size: average 14.438 KiB, min 1.656 KiB, max 48.274 KiB
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 99.51 s
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.33%
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Jobs were issued in 221 batches (only local compilation was used), average 1.33 jobs/batch
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Average processing rate: 2.96 jobs/sec
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Total thread time: 403.389 s
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Total thread preprocess time: 17.855 s
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Percentage time preprocessing: 4.43%
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Effective parallelization: 4.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 3.03 sec, max 3.03 sec, min 3.03 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 3.01 sec, max 4.16 sec, min 1.94 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 2.97 sec, max 2.97 sec, min 2.97 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    1 times, average 2.78 sec, max 2.78 sec, min 2.78 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 2.78 sec, max 2.78 sec, min 2.78 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 50.72% of total time (compiled   68 times, average 3.01 sec, max 4.16 sec, min 1.94 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 8.16% of total time (compiled   21 times, average 1.57 sec, max 2.15 sec, min 1.29 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.77% of total time (compiled   31 times, average 0.88 sec, max 1.47 sec, min 0.60 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.96% of total time (compiled   31 times, average 0.65 sec, max 1.27 sec, min 0.44 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display:                                                 FLumenCardPS - 4.27% of total time (compiled   25 times, average 0.69 sec, max 1.07 sec, min 0.52 sec)
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: === Material stats ===
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Materials Translated:    254
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Material Total Translate Time: 1.21 s
+[2025.10.24-22.20.18:527][522]LogShaderCompilers: Display: Material Translation Only: 0.34 s (28%)
+[2025.10.24-22.20.18:528][522]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.24-22.20.18:528][522]LogShaderCompilers: Display: Material Cache Hits: 14 (6%)
+[2025.10.24-22.20.18:528][522]LogShaderCompilers: Display: ================================================
+[2025.10.24-22.20.26:917][240]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SITD/Blueprints/PC/BP_PlayerCharacter.BP_PlayerCharacter
+[2025.10.24-22.20.27:064][240]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.10.24-22.20.27:352][240]LogStreaming: Display: FlushAsyncLoading(473): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.24-22.20.32:476][240]LogSlate: Took 0.067935 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.10.24-22.20.34:720][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-22.20.34:720][320]LogWorld: BeginTearingDown for /Game/SITD/Levels/UEDPIE_0_Level01
+[2025.10.24-22.20.34:720][320]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.20.34:720][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.20.34:731][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.24-22.20.34:743][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.20.34:764][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-22.20.34:765][320]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.24-22.20.34:765][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.10.24-22.20.34:767][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.10.24-22.20.34:791][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.24-22.20.35:019][321]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.10.24-22.21.05:242][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.10.24-22.21.06:209][484]LogSlate: Window 'Save Content' being destroyed
+[2025.10.24-22.21.06:549][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.24-22.21.06:575][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SITD/Levels/Level01" FILE="../../../../../../GitHub/Spooked/Content/SITD/Levels/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.24-22.21.06:740][484]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.24-22.21.07:076][484]LogSavePackage: Moving output files for package: /Game/SITD/Levels/Level01
+[2025.10.24-22.21.07:078][484]LogSavePackage: Moving '../../../../../../GitHub/Spooked/Saved/Level015E4283C5422E367BC5C6A0B804F8A849.tmp' to '../../../../../../GitHub/Spooked/Content/SITD/Levels/Level01.umap'
+[2025.10.24-22.21.07:240][484]LogFileHelpers: Saving map 'Level01' took 0.665
+[2025.10.24-22.21.07:241][484]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SITD/Blueprints/GameMode/GM_SITD] ([2] browsable assets)...
+[2025.10.24-22.21.07:241][484]OBJ SavePackage: Finished generating thumbnails for package [/Game/SITD/Blueprints/GameMode/GM_SITD]
+[2025.10.24-22.21.07:241][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SITD/Blueprints/GameMode/GM_SITD" FILE="../../../../../../GitHub/Spooked/Content/SITD/Blueprints/GameMode/GM_SITD.uasset" SILENT=true
+[2025.10.24-22.21.07:274][484]LogSavePackage: Moving output files for package: /Game/SITD/Blueprints/GameMode/GM_SITD
+[2025.10.24-22.21.07:274][484]LogSavePackage: Moving '../../../../../../GitHub/Spooked/Saved/GM_SITD9357403243F264BD2F2DD0A11F7703E8.tmp' to '../../../../../../GitHub/Spooked/Content/SITD/Blueprints/GameMode/GM_SITD.uasset'
+[2025.10.24-22.21.07:451][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 900.619 ms (total: 7.63 sec)
+[2025.10.24-22.21.07:479][484]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.24-22.21.07:479][484]LogContentValidation: Enabled validators:
+[2025.10.24-22.21.07:479][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.24-22.21.07:479][484]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.24-22.21.07:479][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.24-22.21.07:479][484]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.24-22.21.07:479][484]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.24-22.21.07:479][484]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.24-22.21.07:479][484]AssetCheck: /Game/SITD/Levels/Level01 Validating asset
+[2025.10.24-22.21.07:479][484]AssetCheck: /Game/SITD/Blueprints/GameMode/GM_SITD Validating asset
+[2025.10.24-22.21.09:652][678]Cmd: SELECT NONE
+[2025.10.24-22.21.10:921][808]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.24-22.21.10:956][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.24-22.21.10:957][808]LogPlayLevel: Creating play world package: /Game/SITD/Levels/UEDPIE_0_Level01
+[2025.10.24-22.21.10:961][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004004s)
+[2025.10.24-22.21.10:961][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SITD/Levels/Level01.Level01 to /Game/SITD/Levels/UEDPIE_0_Level01.Level01 (0.004042s)
+[2025.10.24-22.21.10:988][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.10.24-22.21.10:989][808]LogChaosDD: Creating Chaos Debug Draw Scene for world Level01
+[2025.10.24-22.21.10:991][808]LogPlayLevel: PIE: World Init took: (0.001826s)
+[2025.10.24-22.21.10:992][808]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.10.24-22.21.10:992][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.24-22.21.10:992][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.24-22.21.10:992][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.24-22.21.10:992][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.24-22.21.10:992][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.10.24-22.21.10:992][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.24-22.21.10:992][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.10.24-22.21.10:992][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.24-22.21.10:992][808]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.24-22.21.10:992][808]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.24-22.21.10:992][808]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.24-22.21.10:995][808]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.24-22.21.11:017][808]LogAudioMixer: Display: Using Audio Hardware Device LG ULTRAGEAR (NVIDIA High Definition Audio)
+[2025.10.24-22.21.11:017][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.24-22.21.11:017][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.24-22.21.11:017][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.24-22.21.11:018][808]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.10.24-22.21.11:018][808]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.10.24-22.21.11:020][808]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.10.24-22.21.11:020][808]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.10.24-22.21.11:020][808]LogInit: FAudioDevice initialized with ID 6.
+[2025.10.24-22.21.11:020][808]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level01'.
+[2025.10.24-22.21.11:020][808]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.24-22.21.11:023][808]LogLoad: Game class is 'GM_SITD_C'
+[2025.10.24-22.21.11:024][808]LogWorld: Bringing World /Game/SITD/Levels/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2025.10.24-18.21.11
+[2025.10.24-22.21.11:024][808]LogWorld: Bringing up level for play took: 0.000856
+[2025.10.24-22.21.11:027][808]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.10.24-22.21.11:037][808]PIE: Server logged in
+[2025.10.24-22.21.11:039][808]PIE: Play in editor total start time 0.094 seconds.
+[2025.10.24-22.21.15:698][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-22.21.15:698][279]LogWorld: BeginTearingDown for /Game/SITD/Levels/UEDPIE_0_Level01
+[2025.10.24-22.21.15:698][279]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.15:698][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.15:710][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.24-22.21.15:723][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.15:747][279]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.24-22.21.15:747][279]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.24-22.21.15:748][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.10.24-22.21.15:750][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.10.24-22.21.15:754][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.24-22.21.15:758][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.10.24-22.21.15:819][280]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/MetaHuman/MetaHumanSDK/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/MetaHuman/MetaHumanSDK/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/Animation/SkeletalMeshModelingTools/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/Animation/SkeletalMeshModelingTools/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/ToolPresets/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/EditorDataStorage/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/EditorDataStorage/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/Dataflow/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/ChaosCaching/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/2D/Paper2D/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Enterprise/GLTFExporter/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Media/MediaPlate/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/WaveTable/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/USDCore/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/USDCore/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/Synthesis/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/StateTree/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/StateTree/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/RigVM/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/Metasound/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/HairStrands/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:496][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/AudioWidgets/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/UVEditor/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/UMGWidgetPreview/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/UMGWidgetPreview/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/MeshLODToolset/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/MeshLODToolset/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Cameras/GameplayCameras/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Cameras/GameplayCameras/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/NNE/NNEDenoiser/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/NNE/NNEDenoiser/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Interchange/Runtime/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Interchange/Assets/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Interchange/Assets/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/FX/NiagaraSimCaching/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/FX/NiagaraSimCaching/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/FX/Niagara/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/RigLogic/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/RigLogic/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/IKRig/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/DeformerGraph/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/DeformerGraph/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRigModules/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRigModules/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRig/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/ACLPlugin/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Fab/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Fab/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Bridge/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/Bridge/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/TraceUtilities/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/TraceUtilities/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.26:497][129]SourceControl: fatal: D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/ChaosVD/Content: 'D:/Fullsail2023/EpicGames/UE_5.5/Engine/Plugins/ChaosVD/Content' is outside repository at 'D:/GitHub/Spooked'
+[2025.10.24-22.21.37:757][129]LogSlate: Window 'Submit Files' being destroyed
+[2025.10.24-22.21.39:394][129]LogSourceControl: commit successful: [master f1eb453] added Game mode and PC
+[2025.10.24-22.21.39:592][129]SourceControl: [master f1eb453] added Game mode and PC
+[2025.10.24-22.21.39:592][129]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2025.10.24-22.21.39:592][129]SourceControl:  create mode 100644 Content/SITD/Blueprints/GameMode/GM_SITD.uasset
+[2025.10.24-22.21.39:592][129]SourceControl:  create mode 100644 Content/SITD/Blueprints/PC/BP_PlayerCharacter.uasset
+[2025.10.24-22.21.39:608][129]SourceControl: Commited [master f1eb453] added Game mode and PC.
+[2025.10.24-22.21.42:295][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.10.24-22.21.42:849][361]LogStall: Shutdown...
+[2025.10.24-22.21.42:849][361]LogStall: Shutdown complete.
+[2025.10.24-22.21.43:054][361]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:054][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:323][361]LogSlate: Window 'SITD - Unreal Editor' being destroyed
+[2025.10.24-22.21.43:600][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.10.24-22.21.43:610][361]Cmd: QUIT_EDITOR
+[2025.10.24-22.21.43:610][362]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.24-22.21.43:645][362]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.24-22.21.43:645][362]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.24-22.21.43:645][362]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.24-22.21.43:646][362]LogWorld: UWorld::CleanupWorld for Level01, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:646][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:724][362]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.24-22.21.43:724][362]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.24-22.21.43:730][362]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:730][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:738][362]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:738][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:745][362]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:745][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:751][362]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:751][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:757][362]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:757][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:763][362]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:763][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:768][362]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:768][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:773][362]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:773][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:779][362]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:779][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:784][362]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.10.24-22.21.43:784][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.24-22.21.43:789][362]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.24-22.21.43:791][362]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.10.24-22.21.43:791][362]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.10.24-22.21.43:791][362]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.10.24-22.21.43:873][362]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.24-22.21.43:873][362]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.24-22.21.43:873][362]LogAudio: Display: Audio Device unregistered from world 'Level01'.
+[2025.10.24-22.21.43:873][362]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.24-22.21.43:873][362]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.10.24-22.21.43:875][362]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.10.24-22.21.43:881][362]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.24-22.21.43:881][362]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.24-22.21.43:882][362]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.10.24-22.21.43:884][362]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.24-22.21.43:885][362]LogExit: Preparing to exit.
+[2025.10.24-22.21.43:917][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.43:923][362]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.24-22.21.44:204][362]LogEditorDataStorage: Deinitializing
+[2025.10.24-22.21.44:456][362]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.24-22.21.44:473][362]LogExit: Editor shut down
+[2025.10.24-22.21.44:475][362]LogExit: Transaction tracking system shut down
+[2025.10.24-22.21.44:744][362]LogExit: Object subsystem successfully closed.
+[2025.10.24-22.21.44:817][362]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.24-22.21.45:092][362]LogMemoryProfiler: Shutdown
+[2025.10.24-22.21.45:092][362]LogNetworkingProfiler: Shutdown
+[2025.10.24-22.21.45:092][362]LoadingProfiler: Shutdown
+[2025.10.24-22.21.45:092][362]LogTimingProfiler: Shutdown
+[2025.10.24-22.21.45:740][362]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.24-22.21.45:740][362]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.10.24-22.21.45:740][362]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.24-22.21.45:759][362]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.24-22.21.45:759][362]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B859A472B-4564-57D2-5BBC-EBA8D4D18744%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=578d2844409537b5f6317880f351a10f%7C15c82ac2c6b64ee5b28dd41ec8f20555%7C9162de7b-12a5-4205-8aee-2583075a97dd&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.24-22.21.46:314][362]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.24-22.21.46:314][362]RenderDocPlugin: plugin has been unloaded.
+[2025.10.24-22.21.46:314][362]LogXGEController: Cleaning working directory: C:/Users/Batman/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.24-22.21.46:317][362]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.24-22.21.46:317][362]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.24-22.21.46:317][362]LogPakFile: Destroying PakPlatformFile
+[2025.10.24-22.21.46:695][362]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.24-22.21.46:734][362]LogExit: Exiting.
+[2025.10.24-22.21.46:789][362]Log file closed, 10/24/25 18:21:46
